@@ -1,0 +1,196 @@
+﻿/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.sago-col .form-tu-van{
+	padding:0px 15px 5px;
+}
+.sago-col h2,.sago-col h3{
+	margin-bottom:0em;
+}
+.sago-col .dang-ki-tu-van{
+	padding-bottom:0px;
+}
+/*form*/
+.form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: none;
+	border-color: rgba(0,0,0,0.09);
+	color: currentColor !important;
+	border-radius: 4px;
+}
+.form-flat button, .form-flat input{
+	border-radius: 4px;
+
+}
+.flex-col input[type='submit']:not(.is-form){
+	width: 100%;
+	border-radius:6px;
+}
+/* sago-title*/
+.sago_title{
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.sago_title h2{
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	text-transform: capitalize;
+	font-size: 200%;
+	color: #fff;
+	line-height: 1.1;
+}
+.sago_title span{
+	color: #ffa800;
+	font-size: 100%;
+	font-weight: 600;
+}
+.sago_title .title-line{
+	margin-top:-10px;
+}
+.title-line .tl-1,.title-line .tl-3{
+	width: 80px;
+	height: 1px;
+	display: inline-block;
+	background: #e5e5e5;
+}
+.title-line .tl-2{
+	display: inline-block;
+	height: 12px;
+	margin: 0 5px;
+	position: relative;
+	top: 5px;
+	width: 12px;
+	border: 2px solid #ffa800;
+	border-radius: 50px;
+}
+/*tin tức - trang chủ*/
+.sago-col .tin-tuc .col{
+	padding: 0 15px 0px;
+}
+
+/*tab*/
+.sago-tab .tab-panels{
+	background:none;
+}
+
+.nav-pills>li>a{
+	border-radius:2px;
+
+}
+.sago-tab .row-dashed .col:before, .row-solid .col:before {
+
+	left: -2px;
+	border-left: 2px solid #E9E9E9;
+}
+.sago-tab .row-dashed .col:after, .row-solid .col:after {
+
+	bottom: -3px;
+	border-bottom: 4px solid #ddd;
+}
+.sago-do-bong>.col>.col-inner {
+	/* border: 5px solid; */
+	box-shadow: 0px 0px 5px #ccc;
+}
+li.tab.has-icon {
+	background: #f5f5f5;
+	margin-right:5px;
+}
+
+/*blog-shade*/
+.sago-blog-shade .box-blog-post .is-divider{
+	display:none;
+}
+/*sidebar dk tư vấn*/
+.dang-ki-tu-van .col-inner{
+	background:url(http://demo25.muathemewordpress.net/wp-content/uploads/2019/11/bg-body-advisory.png)
+}
+.hotline-tu-van .col-inner{
+	background:url(http://demo25.muathemewordpress.net/wp-content/uploads/2019/11/bg-head-advisory.png) no-repeat;
+	background-size: cover;
+}
+/*footer*/
+.absolute-footer {
+
+	padding: 10px 0 10px;
+
+}
+.sago-footer-top{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background: url(http://demo25.muathemewordpress.net/wp-content/uploads/2019/11/footer.png) no-repeat;
+	background-size: cover;
+}
+.sago-footer-center input[type='submit']:not(.is-form){
+	background-color: #ffa800 !important;
+}
+.sago-ft .col{
+	padding:0px 15px 5px;
+}
+.sago-footer-bottom {
+	padding-top:0px !important;
+}
+.sago-footer-bottom li i {
+	font-size: 85%;
+	margin-right: 2px;
+	border: 1px solid #fff;
+	width: 24px;
+	height: 24px;
+	border-radius: 99px;
+	text-align: center;
+	line-height: 22px;
+	color:#fff;
+}
+.sago-footer-bottom li{
+	color:#fff;
+	list-style:none;
+	margin-left:0px !important;
+}
+.sago-footer-bottom li a{
+	color:#fff;
+}
+ul.list-menu {
+	width: 50% !important;
+	float: left;
+}
+ul.list-menu li {
+	margin-left: 1.3em !important;
+	list-style-type: circle;
+}
+.footer-border-left ul li{
+	list-style-type: none;
+	margin-left: 0;
+}
+.quy-trinh-sago:after {
+	content: '';
+	background: url(../../uploads/2020/01/process-line.png) no-repeat center;
+	/* z-index: 11; */
+	position: absolute;
+	top: 42%;
+	height: 108px;
+	width: 100%;
+	background-size: auto 100%;
+	margin-top: -22px;
+}
+
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	.footer-border-left{
+		border-right:0px !important;
+	}
+	.quy-trinh-sago:after{
+		background:none;  !important;
+	}
+
+}
